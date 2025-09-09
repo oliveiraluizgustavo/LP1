@@ -10,6 +10,7 @@ O teste de mesa realizado com 10 alunos
 🎵 Música - Aquarela - Toquinho
 
 Diagrama UML
+
 ![alt text](DiagramaUmlMusica.png)
 
 🖼️ Vik Muniz – Lampedusa
@@ -18,6 +19,7 @@ Diagrama UML
 (https://cdn.culturagenial.com/imagens/lampedusa-cke.jpg?class=article)
 
 Diagrama UML
+
 ![alt text](DiagramaUmlLampedusa.png)
 
 🖼️ Vik Muniz – Torre Eiffel
@@ -26,6 +28,7 @@ Diagrama UML
 (https://cdn.culturagenial.com/imagens/paris-0-cke.jpg?class=article)
 
 Diagrama UML
+
 ![alt text](DiagramaUmlTorreEiffel.png)
 
 🎨 Doodle
@@ -34,12 +37,15 @@ Diagrama UML
 (https://static.wixstatic.com/media/c097a7_2cbe4d15bd6149889672c78f175482dc~mv2.jpg/v1/fill/w_955,h_665,al_c,q_85,enc_avif,quality_auto/c097a7_2cbe4d15bd6149889672c78f175482dc~mv2.jpg)
 
 Diagrama UML
+
 ![alt text](DiagramaUmlDoodlePicnikPoster.png)
 
 🎬 Vídeo - Brave | Animated Short Film
 
 ![alt text](VideoBrave.png)
+
 (https://www.youtube.com/watch?v=iD_tsK_aqIQ)
 
 Diagrama UML
+
 ![alt text](DiagramaUmlVideoBrave.png)
