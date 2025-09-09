@@ -4,7 +4,7 @@ Pasta criada para salvar projetos da aula de Linguagem de Programação 1.
 __________________________________________________________________________
 Média Alunos - Teste de Mesa
 O teste de mesa realizado com 10 alunos
-[text](<E1_Classes_métodos_atributos_e_objetos - parte 1/Media_10_Alunos.xlsx>)
+[Media 10 Alunos](<E1_Classes_métodos_atributos_e_objetos - parte 1/Media_10_Alunos.xlsx>)
 
 
 🎵 Música - Aquarela - Toquinho
@@ -16,6 +16,7 @@ Diagrama UML
 🖼️ Vik Muniz – Lampedusa
 
 ![alt text](Lampedusa.png)
+
 (https://cdn.culturagenial.com/imagens/lampedusa-cke.jpg?class=article)
 
 Diagrama UML
@@ -25,6 +26,7 @@ Diagrama UML
 🖼️ Vik Muniz – Torre Eiffel
 
 ![alt text](TorreEiffel.png)
+
 (https://cdn.culturagenial.com/imagens/paris-0-cke.jpg?class=article)
 
 Diagrama UML
