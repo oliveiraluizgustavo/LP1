@@ -51,3 +51,70 @@ Diagrama UML
 Diagrama UML
 
 ![alt text](DiagramaUmlVideoBrave.png)
+
+__________________________________________________________________________
+
+# Entrega 02
+
+__________________________________________________________________________
+
+Este projeto é uma aplicação Java desenvolvida com JavaFX para interface gráfica e MySQL como banco de dados.
+O sistema permite cadastrar, listar, editar e excluir registros de objetos (denominados Música apenas como nome da classe).
+
+A estrutura é organizada em camadas:
+
+## 1. Database.java
+
+Responsável por criar a conexão JDBC com o MySQL.
+Centraliza a URL, usuário e senha do banco, oferecendo o método getConnection() utilizado por todo o sistema.
+
+## 2. Musica.java (Modelo)
+
+Classe que representa cada registro salvo no banco.
+Possui ID, título e três atributos personalizados, além de construtores, getters e setters.
+
+## 3. MusicaDAO.java (Acesso ao Banco)
+
+Implementa as operações CRUD:
+
+Create → insere novos registros
+
+Read → retorna todos os registros
+
+Update → edita atributos de um registro
+
+Delete → remove um registro pelo ID
+
+## 4. MainApp.java (Interface JavaFX)
+
+Gerencia toda a interface gráfica:
+
+Tela inicial com mensagem de boas-vindas
+
+Tela principal com duas abas:
+
+Música: formulários para cadastrar novos objetos
+
+Gerenciar: tabela com registros, botões para recarregar, editar e deletar
+
+O sistema demonstra o uso de JavaFX + JDBC + MySQL, aplicando boas práticas de organização com separação entre interface, modelo e acesso a dados.
+
+## Tela de início
+
+Nesta tela, somos introduzidos ao sistema Com a mensagem de "Bem vindo ao programa" e temos opção de entrar no sistema, através do botão "continuar".
+
+<img width="793" height="675" alt="TelaPrincipal" src="https://github.com/user-attachments/assets/e4855cba-731f-454e-8d6e-74636b895d59" />
+
+## Tela Principal
+
+Nesta tela, é onde inserimos os dados que desejamos salvar no bando de dados, após salvar, o sistema avisa que foi salvo e depois apaga as informações.
+
+<img width="795" height="674" alt="TelaInsercaoDados" src="https://github.com/user-attachments/assets/d1a5c0d8-e0be-427a-a3f6-374ec68c4018" />
+
+## Tela de gerenciamneto do banco
+
+Nesta tela, podemos recarregar para ver se alguma nova informação foi inserida no sistema do banco, no caso usando MySQL em especifico, e ainda dá a opção
+de editar o que foi inserido ou também excluir, caso não seja mais necessário na tabela.
+
+<img width="796" height="677" alt="TelaDadosTabela" src="https://github.com/user-attachments/assets/1ee25b2c-fdec-48ee-b76f-0d751dca9304" />
+
